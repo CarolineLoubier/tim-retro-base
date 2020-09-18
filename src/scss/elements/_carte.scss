@@ -1,0 +1,28 @@
+.cartes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 30%;
+
+  margin-bottom: 40px;
+  padding: 20px;
+
+  text-align: center;
+
+  background: #FFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+  & img {
+    height: 151px;
+    width: 151px;
+  }
+}

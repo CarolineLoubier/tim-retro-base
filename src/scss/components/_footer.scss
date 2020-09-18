@@ -1,0 +1,13 @@
+.footer-principal {
+  height: 144px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--police-principale);
+  color: #FFF;
+  font-size: 1.125rem;
+
+  background: var(--footer);
+}

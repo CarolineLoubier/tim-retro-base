@@ -1,0 +1,51 @@
+.hero {
+  height: 80vh;
+  position: relative;
+
+  background: black;
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    background: var(--degrade);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+  }
+
+  & .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    z-index: 2;
+
+    color: white;
+  }
+
+  & video {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    opacity: 0.5;
+  }
+}
+
+
+
+
+
